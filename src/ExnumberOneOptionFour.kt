@@ -2,7 +2,7 @@ import java.lang.NumberFormatException
 
 fun main() = try {
     println("пиши циферку")
-    var x = readLine()!!.toShort()
+    val x = readln().toShort()
     when (x)
     {
         in -32768 .. 7 -> println(-3 * x + 9)
